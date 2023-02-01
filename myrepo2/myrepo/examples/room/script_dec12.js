@@ -97,7 +97,7 @@ const Peer = window.Peer;
         frames[1].style.position = 'absolute';
         frames[1].style.top = '80px';
         frames[1].style.left = '550px';
-        frames[1].style.width = '100px';
+        frames[1].style.width = '20px';
         frames[1].style.height= 'auto';
       } catch(e) {console.log( e.message );}
       if( 2 < frames.length ) {
