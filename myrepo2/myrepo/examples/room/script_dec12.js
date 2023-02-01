@@ -105,9 +105,8 @@ const Peer = window.Peer;
           frames[2].style.position = 'absolute';
           frames[2].style.top = '120px';
           frames[2].style.left = '280px';
-          frames[2].style.width = '100px';
+          frames[2].style.width = '80px';
           frames[2].style.height= 'auto';
-          frames[2].style.transform = "skew(0, -20deg)";
         } catch(e) { console.log(e.message);}
       }
       if( 3 < frames.length ) {
@@ -115,9 +114,8 @@ const Peer = window.Peer;
           frames[3].style.position = 'absolute';
           frames[3].style.top = '120px';
           frames[3].style.left = '850px';
-          frames[3].style.width = '100px';
+          frames[3].style.width = '80px';
           frames[3].style.height= 'auto';
-          frames[3].style.transform = "skew(0, 20deg)";
         } catch(e) {console.log( e.message );}
       }
       if( 4 < frames.length ) {
@@ -127,7 +125,6 @@ const Peer = window.Peer;
           frames[4].style.left = '130px';
           frames[4].style.width = '100px';
           frames[4].style.height= 'auto';
-          frames[4].style.transform = "skew(0, -50deg)";
         } catch(e) {console.log( e.message );}
       }
       if( 5 < frames.length ) {
@@ -137,7 +134,6 @@ const Peer = window.Peer;
           frames[5].style.left = '970px';
           frames[5].style.width = '100px';
           frames[5].style.height= 'auto';
-          frames[5].style.transform = "skew(0, 50deg)";
         } catch(e) {console.log( e.message );}
       }
       if( 6 < frames.length ) {
@@ -145,9 +141,8 @@ const Peer = window.Peer;
           frames[6].style.position = 'absolute';
           frames[6].style.top = '400px';
           frames[6].style.left = '150px';
-          frames[6].style.width = '100px';
+          frames[6].style.width = '140px';
           frames[6].style.height= 'auto';
-          frames[6].style.transform = "skew(0, 20deg)";
         } catch(e) {console.log( e.message );}
       }
       if( 7 < frames.length ) {
@@ -155,9 +150,8 @@ const Peer = window.Peer;
           frames[7].style.position = 'absolute';
           frames[7].style.top = '400px';
           frames[7].style.left = '870px';
-          frames[7].style.width = '100px';
+          frames[7].style.width = '140px';
           frames[7].style.height= 'auto';
-          frames[7].style.transform = "skew(0, -20deg)";
         } catch(e) {console.log( e.message );}
       }
       await newVideo.play().catch(console.error);
