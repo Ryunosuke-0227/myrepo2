@@ -104,8 +104,8 @@ const Peer = window.Peer;
         try{//左1列目
           frames[2].style.position = 'absolute';
           frames[2].style.top = '120px';
-          frames[2].style.left = '280px';
-          frames[2].style.width = '150px';
+          frames[2].style.left = '250px';
+          frames[2].style.width = '130px';
           frames[2].style.height= 'auto';
         } catch(e) { console.log(e.message);}
       }
@@ -113,8 +113,8 @@ const Peer = window.Peer;
         try{//右1列目
           frames[3].style.position = 'absolute';
           frames[3].style.top = '120px';
-          frames[3].style.left = '850px';
-          frames[3].style.width = '150px';
+          frames[3].style.left = '880px';
+          frames[3].style.width = '130px';
           frames[3].style.height= 'auto';
         } catch(e) {console.log( e.message );}
       }
@@ -122,8 +122,8 @@ const Peer = window.Peer;
         try{//左2列目
           frames[4].style.position = 'absolute';
           frames[4].style.top = '220px';
-          frames[4].style.left = '130px';
-          frames[4].style.width = '200px';
+          frames[4].style.left = '10px';
+          frames[4].style.width = '180px';
           frames[4].style.height= 'auto';
         } catch(e) {console.log( e.message );}
       }
@@ -131,8 +131,8 @@ const Peer = window.Peer;
         try{//右2列目
           frames[5].style.position = 'absolute';
           frames[5].style.top = '220px';
-          frames[5].style.left = '970px';
-          frames[5].style.width = '200px';
+          frames[5].style.left = '1090px';
+          frames[5].style.width = '180px';
           frames[5].style.height= 'auto';
         } catch(e) {console.log( e.message );}
       }
@@ -141,7 +141,7 @@ const Peer = window.Peer;
           frames[6].style.position = 'absolute';
           frames[6].style.top = '400px';
           frames[6].style.left = '250px';
-          frames[6].style.width = '140px';
+          frames[6].style.width = '210px';
           frames[6].style.height= 'auto';
         } catch(e) {console.log( e.message );}
       }
@@ -150,7 +150,7 @@ const Peer = window.Peer;
           frames[7].style.position = 'absolute';
           frames[7].style.top = '400px';
           frames[7].style.left = '870px';
-          frames[7].style.width = '250px';
+          frames[7].style.width = '210px';
           frames[7].style.height= 'auto';
         } catch(e) {console.log( e.message );}
       }
