@@ -149,7 +149,7 @@ const Peer = window.Peer;
         try{//右3列目
           frames[7].style.position = 'absolute';
           frames[7].style.top = '400px';
-          frames[7].style.left = '870px';
+          frames[7].style.left = '830px';
           frames[7].style.width = '210px';
           frames[7].style.height= 'auto';
         } catch(e) {console.log( e.message );}
