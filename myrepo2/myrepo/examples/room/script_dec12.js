@@ -113,7 +113,7 @@ const Peer = window.Peer;
         try{//右1列目
           frames[3].style.position = 'absolute';
           frames[3].style.top = '120px';
-          frames[3].style.left = '880px';
+          frames[3].style.left = '870px';
           frames[3].style.width = '130px';
           frames[3].style.height= 'auto';
         } catch(e) {console.log( e.message );}
@@ -131,7 +131,7 @@ const Peer = window.Peer;
         try{//右2列目
           frames[5].style.position = 'absolute';
           frames[5].style.top = '220px';
-          frames[5].style.left = '1090px';
+          frames[5].style.left = '1050px';
           frames[5].style.width = '180px';
           frames[5].style.height= 'auto';
         } catch(e) {console.log( e.message );}
